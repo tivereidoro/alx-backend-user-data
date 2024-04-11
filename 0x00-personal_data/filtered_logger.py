@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
+
 """ Python Module """
+
+# Import relevant modules
 from typing import List
 import re
 import logging
 import mysql.connector
 import os
 
-
+# Personal data fields:
 PII_FIELDS = ("name", "email", "phone", "ssn", "password")
 
 
