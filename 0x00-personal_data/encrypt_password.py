@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-""" Python Module """
+
+'''
+    Python Module for bcrypt
+'''
+
 import bcrypt
 
 
 def hash_password(password: str) -> bytes:
-    """ function that takes a string and hash it """
+    """ Takes a string and hash it """
     encoded_psw = bytes(password, 'utf-8')
     salt = bcrypt.gensalt()
     hashed = bcrypt.hashpw(encoded_psw, salt)
