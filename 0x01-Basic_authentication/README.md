@@ -8,14 +8,16 @@
 
 ###
 </div>
-
 > Learning what the authentication process means and implementing a **Basic Authentication** on a simple API.
 
 ## Background Context :
 In the industry, you should **not** implement your own Basic authentication system and use a module or framework that doing it for you (like in Python-Flask: [Flask-HTTPAuth](https://flask-httpauth.readthedocs.io/en/latest/)). Here, for the learning purpose, we will walk through each step of this mechanism to understand it by doing.
 
-##
+<div align="center">
+
+###
 ![6ccb363443a8f301bc2bc38d7a08e9650117de7c](https://github.com/tivereidoro/alx-backend-user-data/assets/105525310/ef198ea8-e881-429f-b6a4-137dc7b801e3)
+</div>
 
 ##
 ### Resources (Read or watch):
